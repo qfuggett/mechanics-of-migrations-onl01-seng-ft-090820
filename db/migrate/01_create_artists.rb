@@ -1,9 +1,13 @@
 # db/migrate/01_create_artists.rb
  
 class CreateArtists < ActiveRecord::Migration[5.2]
-  def up
-  end
+  # def up
+  # end
  
-  def down
+  # def down
+  # end
+  
+  #an alternative
+  def change
   end
 end
